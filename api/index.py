@@ -46,7 +46,7 @@ def download():
         terabox_link = data['url']
 
         # API endpoint for TeraBox downloader
-        api_url = "https://ytshorts.savetube.me/api/v1/terabox-downloader"
+        api_url = "https://yt.savetube.me/terabox-downloader"
         
         # Request payload
         payload = {"url": terabox_link}
